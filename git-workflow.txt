@@ -30,7 +30,6 @@
   210  cat 1.txt
   211  git status
   212  git "one more changes" > 1.txt
-  213  git add -m "changes made" 1.txt
   214  git add 1.txt
   215  git status
   216  git commit -m " first change"
