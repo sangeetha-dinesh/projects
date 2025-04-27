@@ -1,0 +1,129 @@
+181  apt update
+  182  apt install git
+  183  ls
+  184  cd projects/
+  185  git init
+  186  nano ~/.bashrc
+  187  source ~/.bashrc
+  188  cd projects/
+  189  git init
+  190  git status
+  191  echo "File 1" > 1.txt
+  192  git status
+  193  git add 1.txt
+  194  gits status
+  195  git status
+  196  git commit 1.txt
+  197  git config --gloabl user.email "srajgopalm@gmail.com"
+  198  git config --global user.email "srajgopalm@gmail.com"
+  199  git config --global user.name "sangeetha-dinesh"
+  200  git commit 1.txt
+  201  git branch -m main
+  202  ls -ail
+  203  history
+  204  git log
+  205  ls -ail
+  206  ls
+  207  cat 1.txt
+  208  git log
+  209  echo "some changes" >> 1.txt
+  210  cat 1.txt
+  211  git status
+  212  git "one more changes" > 1.txt
+  213  git add -m "changes made" 1.txt
+  214  git add 1.txt
+  215  git status
+  216  git commit -m " first change"
+  217  git log
+  218  git checkout  e
+  219  git checkout  e0b
+  220  git checkout  e0b53e
+  221  l
+  222  ls
+  223  cat 1.txt
+  224  git main
+  225  git checkout main
+  226  ls
+  227  cat 1.txt
+  228  ls
+  229  cat 1.txt
+  230  git log
+  231  ls -ail
+  232  cat 1.txt
+  233  git log
+  234  cat 1.txt
+  235  pwd
+  236  git checkout 98226d1
+  237  ls
+  238  cat 1.txt
+  239  git status
+  240  git main
+  241  git checkout main
+  242  git status
+  243  ls -ail
+  244  nano 1.txt
+  245  git log
+  246  git checkout 98226d
+  247  ls -ail
+  248  cat 1.txt
+  249  ls
+  250  more 1.txt
+  251  nano 1.txt
+  252  cd ..
+  253  ls
+  254  cd projects/
+  255  git checkout main
+  256  git status
+  257  ls -ail
+  258  cat 1.txt
+  259  ls -ail
+  260  echo "change 1" >> 1.txt
+  261  git status 1.txt
+  262  git commit -m "change 1" 1.txt
+  263  cat 1.txt
+  264  echo "change 2" >> 1.txt
+  265  git commit -m "change 2" 1.txt
+  266  git status 1.txt
+  267  git log
+  268  cat 1.txt
+  269  git checkout 98226d
+  270  ls
+  271  cat 1.txt
+  272  git main
+  273  cat 1.txt
+  274* git branch
+  275  git checkout main
+  276  cat 1.txt
+  277  git log
+  278  git checkout e0b53ea
+  279  cat 1.txt
+  280  git checkout main
+  281  cat 1.txt
+  282  git branch feature1
+  283  git branch
+  284  git log
+  285  git checkout feature1
+  286  git log
+  287  echo "2nd file" > 2.txt
+  288  cat 2.txt
+  289  git status
+  290  git add 2.txt
+  291  git status
+  292  git commit -m "2nd file from  feature1"
+  293  git status
+  294  git log
+  295  git status
+  296  ls
+  297  git checkout main
+  298  ls
+  299  git merge feature1
+  300  ls
+  301  git log
+  302  git log --graph
+  303  delete branch feature1
+  304  git branch -d feature1
+  305  bit branch
+  306  git branch
+  307  git remote add origin https://github.com/sangeetha-dinesh/projects.git
+  308  git remote -v
+  309  git push -u origin main
